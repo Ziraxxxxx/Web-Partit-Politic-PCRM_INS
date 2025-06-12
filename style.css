@@ -1,0 +1,138 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #fc7878;
+    color: #333;
+}
+
+.nav_list {
+    max-width: 100%;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-out;
+}
+
+.nav_item {
+    position: absolute !important;
+    display: inline-block;
+}
+
+.nav_link {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+    background-color: #e93535;
+    border-radius: 8px;
+}
+
+#nav_item_home {
+    left: 18px;
+    top: 20px;
+    position: absolute;
+}
+#nav_item_abotus {
+    left: 105px;
+    top: 20px;
+    position: absolute;
+}
+
+#nav_item_contact {
+    right: 25px;
+    top: 20px;
+    position: absolute;
+}
+
+.nav_link:hover {
+    background-color: #fc6464;
+}
+
+.header-section {
+    padding: 30px 20px;
+    margin: 0;
+    background-color: #fc7878;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 0 0 1px 1px;
+    font-weight: bold;
+    }
+
+.logo {
+    width: 25%;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 80%;
+}
+
+section {
+    padding: 25px;
+    margin: 15px;
+    background-color: white;
+    border-radius: 14px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #fc7878;
+    padding-bottom: 65px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 44px;
+    margin-bottom: 5px;
+}
+
+.main-article {
+    position: relative;
+}
+
+.main-article p {
+    font-size: 18px;
+    line-height: 2;
+    overflow: break-word;
+}
+
+.second-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    position: relative !important;
+}
+
+.photo-second-section {
+    width: 40%;
+    height: auto;
+    left: 700px;
+    bottom: 15px;
+    position: absolute;
+}
+
+.text-2 {
+    text-align: center;
+    margin: 0;
+}
+
+.footer-section {
+    background-color: #ececec;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 20px;
+}
+
+.footer-section p {
+    margin: 10px 0;
+    font-size: 15px;
+    font-style: oblique;
+}
+
+a {
+    text-decoration: none;
+    color: #3e80bb;
+}
+
+a:hover {
+    color: #fc7878;
+}
