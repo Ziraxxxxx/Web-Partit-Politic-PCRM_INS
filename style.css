@@ -113,6 +113,14 @@ h2 {
     margin: 0;
 }
 
+.video-spot {
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+    border-radius: 20px;
+    display: flex;  
+}
+
 .footer-section {
     background-color: #ececec;
     text-align: center;
