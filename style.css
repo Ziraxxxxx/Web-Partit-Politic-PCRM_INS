@@ -68,8 +68,11 @@ body {
 }
 
 section {
-    padding: 25px;
-    margin: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-top: 1px;
+    margin: 10px;
     background-color: white;
     border-radius: 14px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -104,7 +107,7 @@ h2 {
     position: absolute;
     width: 30%;
     left: 120vh;
-    bottom: 4vh;
+    bottom: 10vh;
 }
 
 
@@ -120,6 +123,39 @@ h2 {
     border-radius: 20px;
     display: flex;  
 }
+
+.calendari {
+max-width: 800px;
+margin: 0 auto;
+background-color: #ffffff;
+padding: 20px;
+border-radius: 12px;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+}
+
+thead {
+background-color: #eaeaea;
+}
+
+th, td {
+padding: 12px 16px;
+border: 1px solid #ccc;
+text-align: center;
+}
+
+tr:nth-child(even) {
+background-color: #f5f5f5;
+}
+
+tr:hover {
+background-color: #f0e6e6;
+}
+
 
 .footer-section {
     background-color: #ececec;
